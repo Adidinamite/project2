@@ -1,17 +1,17 @@
 .box{
-    background-color: #4ba7dc;
+    background-color: #f1d9bf;
     width: 20rem;
     height: 40rem;
     border-style: solid;
     border-color: #000000;
+    padding: 2rem;
 }
-.container1{
+.input{
     display: flex;
     /*flex-direction: row;*/
     justify-content: space-around;
-    padding:2rem;
 }
-.container2{
+.list{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,15 @@
     font-size: 1rem;
 }
 .bgTask{
+    padding:2px;
     border-radius: 0.3rem;
     color: #000000;
     background-color: #8ef1e8;
+}
+.bubble{
+    background-color: #b8acf8;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
